@@ -13,6 +13,22 @@
 </header>
 
 <main>
+<section id="search">
+  <h2>Free title search</h2>
+  <p>This is a real title search of the county records. It is free. You will not get a $150 to $400 bill for it.</p>
+  <p>Realtors, run it before you list. You see a foreclosure notice or a bankruptcy filing recorded with the county before it turns up at closing.</p>
+  <form id="titleSearch" class="bubble">
+    <select id="county" aria-label="County">
+      <option>Harris</option><option>Montgomery</option><option>Chambers</option><option>Jefferson</option><option>Grimes</option>
+    </select>
+    <input id="address" type="text" placeholder="Street address and city, like 815 N Thompson St, Conroe" required>
+    <button type="submit">Search free</button>
+  </form>
+  <p class="small">Harris, Montgomery, Chambers, Jefferson and Grimes counties, Texas. County clerk records, the appraisal district and the tax office.</p>
+  <p class="small" id="searchNote" aria-live="polite"></p>
+  <div id="searchResult"></div>
+</section>
+
 <section>
   <h2>Why I am doing this</h2>
   <p>I have spent 25 years in real estate. Title companies and lawyers have thrown me under the bus more times than I can count.</p>
@@ -57,5 +73,6 @@
 </main>
 <script src="config.js"></script>
 <script src="app.js"></script>
+<script src="search.js"></script>
 </body>
 </html>
