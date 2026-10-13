@@ -1,0 +1,13 @@
+body{margin:0;font-family:system-ui,sans-serif;background:#f5f5f5;color:#222;line-height:1.55}
+header{background:#0b1424;color:#fff;text-align:center;padding:36px 20px}
+header h1{margin:0;font-size:2rem}.tag{margin:8px 0 0;color:#cfd6e4}
+main{max-width:760px;margin:0 auto;padding:12px 20px 40px}
+section{background:#fff;border-radius:14px;padding:18px 22px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+h2{color:#0b1424;margin-top:0}.sign{font-style:italic}
+.bubble{display:flex;gap:8px;flex-wrap:wrap;background:#fff;border:2px solid #0b1424;border-radius:999px;padding:8px}
+.bubble.stack{border-radius:18px}
+.bubble input,.bubble select{flex:1 1 180px;border:0;font-size:1rem;padding:10px;background:transparent;outline:none}
+.bubble button{border:0;border-radius:999px;background:#0b1424;color:#fff;font-weight:700;padding:10px 20px;font-size:1rem;cursor:pointer}
+.small{font-size:.92rem;color:#555}.card{border:1px solid #dde2ea;border-radius:10px;padding:6px 16px;background:#fafbfd}
+.result{margin-top:14px;border:1px solid #dde2ea;border-radius:10px;padding:12px 16px}
+.legal{border-left:5px solid #0b1424}a{color:#0b1424}
