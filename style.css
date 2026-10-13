@@ -1,5 +1,6 @@
 body{margin:0;font-family:system-ui,sans-serif;background:#f5f5f5;color:#222;line-height:1.55}
-header{background:#0b1424;color:#fff;text-align:center;padding:36px 20px}
+header{background:#0b1424;text-align:center;padding:16px 10px}
+.logo{display:block;width:100%;max-width:900px;height:auto;margin:0 auto;border-radius:12px}
 header h1{margin:0;font-size:2rem}.tag{margin:8px 0 0;color:#cfd6e4}
 main{max-width:760px;margin:0 auto;padding:12px 20px 40px}
 section{background:#fff;border-radius:14px;padding:18px 22px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,.06)}
